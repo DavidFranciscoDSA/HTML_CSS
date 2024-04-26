@@ -1,0 +1,21 @@
+header {
+    padding: 10px;
+    & ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        & li {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    @media (min-width: 992px) {
+        & nav ul {
+            & .link-desktop{
+                display: flex;
+            }
+        }
+    }
+}
